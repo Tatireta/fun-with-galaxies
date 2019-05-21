@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fun with Galaxies</title>
+	<style type="text/css">
+	#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+    background-size: cover;
+  }
+  .text-box {
+  	position: absolute;
+  	top: 20px;
+  	left: 20px;
+  	background-color: rgba(105,105,105,0.7);
+  	color: indigo;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	font-family: sans-serif;
+    -webkit-box-shadow: 3px 3px 16px -4px #000000; 
+    box-shadow: 3px 3px 16px -4px #000000;
+  	border-radius: 1em;
+  }
+  h1,
+  h2 {
+  	text-transform: capitalize;
+  }
+  h1 {
+  	font-size: 1.8em;
+  }
+  ul,
+  p {
+  	font-size: 0.8em;
+  }
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<video playsinline autoplay muted loop poster="galaxy.jpg" id="bgvid">
+    	<source src="Galaxy_With_Customization.mp4" type="video/mp4">
+		</video>
+		<div class="text-box">
+		<h1>Check out my cool galaxy!</h1>
+		<h2>Fun Facts about space:</h2>
+		<ul>
+			<li>Neutron stars can spin at a rate of 600 rotations per second</li>
+			<li>Space is completely silent</li>
+			<li>There is an uncountable number of stars in the known universe</li>
+			<li>The Apollo astronauts' footprints on the moon will probably stay there for at least 100 million years</li>
+			<li>99 percent of our solar system's mass is the sun</li>
+			<li>More energy from the sun hits Earth every hour than the planet uses in a year</li>
+			<li>If two pieces of the same type of metal touch in space, they will bond and be permanently stuck together</li>
+			<li>The largest asteroid in our solar system is a mammoth piece of space rock named Ceres</li>
+			<li>One day on Venus is longer than one year on Earth</li>
+			<li>Jupiter's Red Spot is shrinking</li>
+			<li>One of Saturn's moons has a distinct two-tone coloration</li>
+			<li>The position of the North Star will change over time</li>
+		</ul>
+		<p>Source: <a href="https://mashable.com/article/sun-stars-space-facts/" target="_blank">12 Facts About Space That Will Rock Your World</a></p>
+		</div>
+	</div>
+</body>
+</html>
